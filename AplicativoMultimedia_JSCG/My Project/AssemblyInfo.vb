@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Revisar los valores de los atributos del ensamblado
 
-<Assembly: AssemblyTitle("AplicativoMultimedia_JSCG")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("AplicativoMultimedia_JSCG")>
-<Assembly: AssemblyCopyright("Copyright ©  2019")>
+<Assembly: AssemblyTitle("Aplicativo Multimedia JSCG")>
+<Assembly: AssemblyDescription("Aplicativo para el paso 4 del curso Visual Basic")>
+<Assembly: AssemblyCompany("Juan Cubillos")>
+<Assembly: AssemblyProduct("Aplicativo Multimedia JSCG")>
+<Assembly: AssemblyCopyright("Copyright © Juan Cubillos 2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

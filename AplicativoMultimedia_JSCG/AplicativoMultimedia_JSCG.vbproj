@@ -47,6 +47,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>I MAIN_LOGO.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -73,11 +76,35 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="FormDataMiningAudio.Designer.vb">
+      <DependentUpon>FormDataMiningAudio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataMiningAudio.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="FormDataMiningImages.Designer.vb">
+      <DependentUpon>FormDataMiningImages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataMiningImages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataMiningPDFReader.Designer.vb">
+      <DependentUpon>FormDataMiningPDFReader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataMiningPDFReader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataMiningVideo.Designer.vb">
+      <DependentUpon>FormDataMiningVideo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataMiningVideo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuPrincipal_JSCG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuPrincipal_JSCG.Designer.vb">
+      <DependentUpon>FormMenuPrincipal_JSCG.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,6 +124,21 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormDataMiningAudio.resx">
+      <DependentUpon>FormDataMiningAudio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataMiningImages.resx">
+      <DependentUpon>FormDataMiningImages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataMiningPDFReader.resx">
+      <DependentUpon>FormDataMiningPDFReader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataMiningVideo.resx">
+      <DependentUpon>FormDataMiningVideo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuPrincipal_JSCG.resx">
+      <DependentUpon>FormMenuPrincipal_JSCG.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -115,6 +157,28 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="I MAIN_LOGO.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

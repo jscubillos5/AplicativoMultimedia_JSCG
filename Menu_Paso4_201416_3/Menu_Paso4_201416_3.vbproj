@@ -79,6 +79,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataMinig\FormDataMiningAudio.Designer.vb">
+      <DependentUpon>FormDataMiningAudio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataMinig\FormDataMiningAudio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataMinig\FormDataMiningImages.Designer.vb">
+      <DependentUpon>FormDataMiningImages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataMinig\FormDataMiningImages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataMinig\FormDataMiningPDFReader.Designer.vb">
+      <DependentUpon>FormDataMiningPDFReader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataMinig\FormDataMiningPDFReader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataMinig\FormDataMiningVideo.Designer.vb">
+      <DependentUpon>FormDataMiningVideo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataMinig\FormDataMiningVideo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormMenuPrincipal.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +127,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DataMinig\FormDataMiningAudio.resx">
+      <DependentUpon>FormDataMiningAudio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataMinig\FormDataMiningImages.resx">
+      <DependentUpon>FormDataMiningImages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataMinig\FormDataMiningPDFReader.resx">
+      <DependentUpon>FormDataMiningPDFReader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataMinig\FormDataMiningVideo.resx">
+      <DependentUpon>FormDataMiningVideo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMenuPrincipal.resx">
       <DependentUpon>FormMenuPrincipal.vb</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +164,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="II MAIN_LOGO.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

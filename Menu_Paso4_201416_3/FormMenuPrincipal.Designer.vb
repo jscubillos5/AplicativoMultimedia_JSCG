@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FormMenuPrincipal
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class FormMenuPrincipal
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormMenuPrincipal))
         Me.FormMenuPrincipalMenuStrip = New System.Windows.Forms.MenuStrip()
@@ -53,25 +53,25 @@ Partial Class FormMenuPrincipal
         'DataMiningPDFReaderToolStripMenuItem
         '
         Me.DataMiningPDFReaderToolStripMenuItem.Name = "DataMiningPDFReaderToolStripMenuItem"
-        Me.DataMiningPDFReaderToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.DataMiningPDFReaderToolStripMenuItem.Size = New System.Drawing.Size(155, 26)
         Me.DataMiningPDFReaderToolStripMenuItem.Text = "Lector PDF"
         '
         'DataMiningImagesToolStripMenuItem
         '
         Me.DataMiningImagesToolStripMenuItem.Name = "DataMiningImagesToolStripMenuItem"
-        Me.DataMiningImagesToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.DataMiningImagesToolStripMenuItem.Size = New System.Drawing.Size(155, 26)
         Me.DataMiningImagesToolStripMenuItem.Text = "Imagenes"
         '
         'DataMiningAudioToolStripMenuItem
         '
         Me.DataMiningAudioToolStripMenuItem.Name = "DataMiningAudioToolStripMenuItem"
-        Me.DataMiningAudioToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.DataMiningAudioToolStripMenuItem.Size = New System.Drawing.Size(155, 26)
         Me.DataMiningAudioToolStripMenuItem.Text = "Audio"
         '
         'DataMiningVideoToolStripMenuItem
         '
         Me.DataMiningVideoToolStripMenuItem.Name = "DataMiningVideoToolStripMenuItem"
-        Me.DataMiningVideoToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.DataMiningVideoToolStripMenuItem.Size = New System.Drawing.Size(155, 26)
         Me.DataMiningVideoToolStripMenuItem.Text = "Video"
         '
         'LinkLabelCopyright
@@ -97,6 +97,7 @@ Partial Class FormMenuPrincipal
         Me.MaximumSize = New System.Drawing.Size(550, 240)
         Me.MinimumSize = New System.Drawing.Size(550, 240)
         Me.Name = "FormMenuPrincipal"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Paso 4 - Aplicativo Multimedia - 201416_3"
         Me.FormMenuPrincipalMenuStrip.ResumeLayout(False)
         Me.FormMenuPrincipalMenuStrip.PerformLayout()

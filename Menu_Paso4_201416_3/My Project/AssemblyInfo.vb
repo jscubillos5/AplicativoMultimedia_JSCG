@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Revisar los valores de los atributos del ensamblado
 
-<Assembly: AssemblyTitle("Menu_Paso4_201416_3")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyTitle("Aplicativo Multimedia Paso4 201416_3")>
+<Assembly: AssemblyDescription("Menu para el paso 4 del curso Visual Basic")>
+<Assembly: AssemblyCompany("201416_3")>
 <Assembly: AssemblyProduct("Menu_Paso4_201416_3")>
-<Assembly: AssemblyCopyright("Copyright ©  2019")>
+<Assembly: AssemblyCopyright("Copyright © 201416_3 2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

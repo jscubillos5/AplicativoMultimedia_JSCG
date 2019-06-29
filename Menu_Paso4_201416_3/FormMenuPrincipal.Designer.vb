@@ -29,6 +29,7 @@ Partial Class FormMenuPrincipal
         Me.DataMiningImagesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataMiningAudioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataMiningVideoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LinkLabelCopyright = New System.Windows.Forms.LinkLabel()
         Me.FormMenuPrincipalMenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -38,7 +39,7 @@ Partial Class FormMenuPrincipal
         Me.FormMenuPrincipalMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DataMiningToolStripMenuItem})
         Me.FormMenuPrincipalMenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.FormMenuPrincipalMenuStrip.Name = "FormMenuPrincipalMenuStrip"
-        Me.FormMenuPrincipalMenuStrip.Size = New System.Drawing.Size(800, 28)
+        Me.FormMenuPrincipalMenuStrip.Size = New System.Drawing.Size(532, 28)
         Me.FormMenuPrincipalMenuStrip.TabIndex = 0
         Me.FormMenuPrincipalMenuStrip.Text = "MenuStrip1"
         '
@@ -73,14 +74,28 @@ Partial Class FormMenuPrincipal
         Me.DataMiningVideoToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.DataMiningVideoToolStripMenuItem.Text = "Video"
         '
+        'LinkLabelCopyright
+        '
+        Me.LinkLabelCopyright.AutoSize = True
+        Me.LinkLabelCopyright.Location = New System.Drawing.Point(12, 167)
+        Me.LinkLabelCopyright.Name = "LinkLabelCopyright"
+        Me.LinkLabelCopyright.Size = New System.Drawing.Size(273, 17)
+        Me.LinkLabelCopyright.TabIndex = 3
+        Me.LinkLabelCopyright.TabStop = True
+        Me.LinkLabelCopyright.Text = "Derechos de autor © 2019 por 201416_3."
+        '
         'FormMenuPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(532, 193)
+        Me.Controls.Add(Me.LinkLabelCopyright)
         Me.Controls.Add(Me.FormMenuPrincipalMenuStrip)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.FormMenuPrincipalMenuStrip
+        Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(550, 240)
+        Me.MinimumSize = New System.Drawing.Size(550, 240)
         Me.Name = "FormMenuPrincipal"
         Me.Text = "Paso 4 - Aplicativo Multimedia - 201416_3"
         Me.FormMenuPrincipalMenuStrip.ResumeLayout(False)
@@ -96,4 +111,5 @@ Partial Class FormMenuPrincipal
     Friend WithEvents DataMiningImagesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DataMiningAudioToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DataMiningVideoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LinkLabelCopyright As LinkLabel
 End Class

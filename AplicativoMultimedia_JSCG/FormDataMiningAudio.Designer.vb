@@ -40,10 +40,12 @@ Partial Class FormDataMiningAudio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(979, 76)
+        Me.ClientSize = New System.Drawing.Size(1039, 111)
         Me.Controls.Add(Me.AxWindowsMediaPlayerFormDataMiningAudio)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(1057, 158)
+        Me.MinimumSize = New System.Drawing.Size(1057, 158)
         Me.Name = "FormDataMiningAudio"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Audio"

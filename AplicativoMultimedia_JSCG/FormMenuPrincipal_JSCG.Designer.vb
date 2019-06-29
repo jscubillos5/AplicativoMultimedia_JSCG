@@ -29,6 +29,7 @@ Partial Class FormMenuPrincipal_JSCG
         Me.DataMiningImagesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataMiningAudioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataMiningVideoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LinkLabelCopyright = New System.Windows.Forms.LinkLabel()
         Me.FormMenuPrincipal_JSCGMenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -52,32 +53,43 @@ Partial Class FormMenuPrincipal_JSCG
         'DataMiningPDFReaderToolStripMenuItem
         '
         Me.DataMiningPDFReaderToolStripMenuItem.Name = "DataMiningPDFReaderToolStripMenuItem"
-        Me.DataMiningPDFReaderToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.DataMiningPDFReaderToolStripMenuItem.Size = New System.Drawing.Size(155, 26)
         Me.DataMiningPDFReaderToolStripMenuItem.Text = "Lector PDF"
         '
         'DataMiningImagesToolStripMenuItem
         '
         Me.DataMiningImagesToolStripMenuItem.Name = "DataMiningImagesToolStripMenuItem"
-        Me.DataMiningImagesToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.DataMiningImagesToolStripMenuItem.Size = New System.Drawing.Size(155, 26)
         Me.DataMiningImagesToolStripMenuItem.Text = "Imagenes"
         '
         'DataMiningAudioToolStripMenuItem
         '
         Me.DataMiningAudioToolStripMenuItem.Name = "DataMiningAudioToolStripMenuItem"
-        Me.DataMiningAudioToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.DataMiningAudioToolStripMenuItem.Size = New System.Drawing.Size(155, 26)
         Me.DataMiningAudioToolStripMenuItem.Text = "Audio"
         '
         'DataMiningVideoToolStripMenuItem
         '
         Me.DataMiningVideoToolStripMenuItem.Name = "DataMiningVideoToolStripMenuItem"
-        Me.DataMiningVideoToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.DataMiningVideoToolStripMenuItem.Size = New System.Drawing.Size(155, 26)
         Me.DataMiningVideoToolStripMenuItem.Text = "Video"
+        '
+        'LinkLabelCopyright
+        '
+        Me.LinkLabelCopyright.AutoSize = True
+        Me.LinkLabelCopyright.Location = New System.Drawing.Point(12, 167)
+        Me.LinkLabelCopyright.Name = "LinkLabelCopyright"
+        Me.LinkLabelCopyright.Size = New System.Drawing.Size(424, 17)
+        Me.LinkLabelCopyright.TabIndex = 2
+        Me.LinkLabelCopyright.TabStop = True
+        Me.LinkLabelCopyright.Text = "Derechos de autor © 2019 por Juan Sebastián Cubillos Gonzalez."
         '
         'FormMenuPrincipal_JSCG
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(532, 193)
+        Me.Controls.Add(Me.LinkLabelCopyright)
         Me.Controls.Add(Me.FormMenuPrincipal_JSCGMenuStrip)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -99,4 +111,5 @@ Partial Class FormMenuPrincipal_JSCG
     Friend WithEvents DataMiningImagesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DataMiningAudioToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DataMiningVideoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LinkLabelCopyright As LinkLabel
 End Class

@@ -40,10 +40,12 @@ Partial Class FormDataMiningVideo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1122, 632)
+        Me.ClientSize = New System.Drawing.Size(1061, 556)
         Me.Controls.Add(Me.AxWindowsMediaPlayerFormDataMiningVideo)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(1079, 603)
+        Me.MinimumSize = New System.Drawing.Size(1079, 603)
         Me.Name = "FormDataMiningVideo"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Vídeo"
